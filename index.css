@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* style header */
+.header{
+    background-color: rgb(253, 228, 232);
+    padding: 20px;
+    text-align: center;
+}
+/* style untuk navigator menu*/
+.topnav{
+    overflow: hidden;
+    background-color: rgb(205, 201, 203);
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: lightsalmon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: lightblue;
+    color: lightskyblue;
+}
+/* style pada content */
+.column{
+    float: left;
+    padding: 10px;
+}
+.column.side{
+    width: 25%;
+}
+.column.middle{
+    width: 50%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    background-color:lightyellow;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: cornsilk;
+    text-align: centre;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a.active{
+    background-color: lightcyan;
+}
+li a:hover:not(.active){
+    background-color: lightcyan;
+    color: lightblue;
+}
